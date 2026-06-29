@@ -13,7 +13,7 @@ if grossPay>=30001 and grossPay<=50000:
     paye=0.2*grossPay
 
 if grossPay>50000:
-    paye+0.25*grossPay
+    paye=0.25*grossPay
     
 #Get the net pay
 netPay=grossPay-paye
